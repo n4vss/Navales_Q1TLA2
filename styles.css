@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(237, 237, 233);
+    background-color: rgb(255, 255, 255);
 }
 
 .intro {
@@ -11,7 +11,7 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-.disc{
+.disc {
     margin-top: 20px;
     margin-left: 1000px;
     text-align: justify;
@@ -58,4 +58,11 @@ a {
     text-decoration: none;
     color: black;
     padding: 10px;
+}
+
+.pic {
+    width: 500px;
+    height: auto;
+    margin-left: 400px;
+    margin-bottom: 200px;
 }
