@@ -1,68 +1,227 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: #181a1b;
+}
+
+footer {
+    height: 270px;
+}
+
+.footer-contact {
+    margin-bottom: 8px;
+}
+.footer-contact a, .footer-contact span {
+    color: #bbb;
+    margin: 0 10px;
+    font-size: 1.3em;
+    vertical-align: middle;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.footer-contact a:hover {
+    color: #00bcf0;
+}
+.footer-contact i {
+    margin-right: 5px;
 }
 
 .intro {
     margin-top: 100px;
-    margin-left: 1000px;
+    margin-left: 350px;
     text-align: justify;
     font-family: 'Arial', sans-serif;
 }
 
 .disc {
     margin-top: 20px;
-    margin-left: 1000px;
+    margin-left: 350px;
+    text-align: justify;
+    font-family: 'Arial', sans-serif;
+}
+
+.skill {
+    margin-top: 100px;
+    margin-left: 350px;
     text-align: justify;
     font-family: 'Arial', sans-serif;
 }
 
 .name {
-    margin-left: 1000px;
+    margin-left: 350px;
     text-align: justify;
     font-family: 'Arial', sans-serif;
 }
 
 .header {
+    height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 10px 40px;
     font-family: 'Arial', sans-serif;
+    background-color: #23272a;
+    color: #fff;
+}
+
+.leftLinks {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+.site-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.rightLinks ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.weblink {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    transition: background 0.2s, color 0.2s;
+    border-radius: 8px;
+}
+
+.intro,
+.disc,
+.name,
+.skill {
+    margin-left: 350px;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+.intro {
+    margin-top: 100px;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.name {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.disc {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+.pic {
+    width: 350px;
+    height: auto;
+    margin-left: 800px;
+    border-radius: 30px;
+    margin-top: -400px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.pic1 {
+    width: 150px;
+    height: 150px;
+    margin-left: 360px;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.pic2 {
+    width: 150px;
+    height: 150px;
+    margin-left: 60px;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.pic3 {
+    width: 150px;
+    height: 150px;
+    margin-left: 60px;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.pic4 {
+    width: 150px;
+    height: 150px;
+    margin-left: 60px;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: rgb(214, 204, 194);
+    background-color: #23272a;
+    color: #bbb;
     font-family: 'Arial', sans-serif;
+    margin-top: 40px;
+    font-size: 1em;
 }
 
-.leftLinks {
-    display: inline-block;
-    float: left;
+a:hover {
+    background: #3e3e42;
+    color: #fff;
+    box-shadow: 0 2px 8px #3e3e42;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
 }
 
-.rightLinks {
-    display: inline-block;
-    float: right;
+.contact-footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
 }
 
-.weblink {
-    display: inline-block;
-    padding: 0px;
+.contact-footer .footer-content p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-    padding: 10px;
+.contact-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.pic {
-    width: 500px;
-    height: auto;
-    margin-left: 400px;
-    margin-bottom: 200px;
+.contact-footer ul li {
+  margin: 10px 0;
+}
+
+.contact-footer a {
+  color: #4db8ff;
+  text-decoration: none;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.3s ease;
+}
+
+.contact-footer a:hover {
+  color: #fff;
+}
+
+.contact-footer i {
+  font-size: 1.2rem;
 }

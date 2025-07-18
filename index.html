@@ -1,36 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gieo</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-    <div class="header">
-        <div class="leftlink">
-            <ul>
-                <ul class="weblinks"><a href="index.html">Mark Gieo M. Navales</a></ul>
-            </ul>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="leftLinks">
+          <a href="index.html" class="site-title">Mark Gieo M. Navales</a>
         </div>
-        <div class="rightlink">
-            <ul>
-                <lu class="weblinks"><a href="index.html">Home</a></lu>
-                <lu class="weblinks"><a href="index.html">About</a></lu>
-                <lu class="weblinks"><a href="index.html">Project</a></lu>
-                <lu class="weblinks"><a href="index.html">Contact</a></lu>
-            </ul>
-        </div>
-    </div>
-    <p class="intro" id="her">HI THERE I'M</p>
-    <h1 class="name">Mark Gieo M. Navales</h1>
-    <div class="disc">
-        <p>A Computer Science Student In UIC<br/>Currently Interested in Web Development</p>
-    </div>
+        <nav class="rightLinks">
+          <ul>
+            <li class="weblink"><a href="index.html">Home</a></li>
+            <li class="weblink"><a href="#about">About</a></li>
+            <li class="weblink"><a href="#skill">Experience</a></li>
+            <li class="weblink"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-    <img class="pic" src="pose.jpg" alt=".">
-</body>
+    <main>
+      <p class="intro" id="about">HI THERE I'M</p>
+      <h1 class="name">Mark Gieo M. Navales</h1>
+      <div class="disc">
+        <p>
+          A Computer Science Student at the University of the <br> Immaculate Conception.
+          I am passionate about my <br> studies and love to learn new things.
+        </p>
+        <h2>Interests</h2>
+          <li>Web Development</li>
+          <li>Game Development</li>
+          <li>Software Engineering</li>
+          <li>Artificial Intelligence</li>
+          <li>Machine Learning</li>
+          <li>Cybersecurity</li>
+          <li>UI/UX</li>
+      </div>
+      <img class="pic" src="me.png" alt="ME" />
+      <h1 class="skill">Skills</h1>
+      <div class="skills" id="skill">
+        <img class="pic1" src="JAVA.jpg" alt="alt" />
+        <img class="pic2" src="PYTHON.png" alt="alt" />
+        <img class="pic3" src="HTML.png" alt="alt" />
+        <img class="pic4" src="CSS.jpg" alt="alt" />
+      </div>
+    </main>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<footer class="contact-footer">
+  <div class="footer-content" id="contact">
+    <p>Contact Me</p>
+    <ul>
+      <li>
+        <a href="mnavales_240000001737@uic.edu.ph">
+          <i class="fas fa-envelope"></i> mnavales_240000001737@uic.edu.ph
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/gieo.navales">
+          <i class="fab fa-facebook"></i> Facebook
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/yourusername">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </li>
+      <li>
+        <a href="tel:+639475017518">
+          <i class="fas fa-phone"></i> 0947 501 7518
+        </a>
+      </li>
+    </ul>
+  </div>
+    <p>© 2025 Mark Gieo M. Navales</p>
+</footer>
+  </body>
 </html>
