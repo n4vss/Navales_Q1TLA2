@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Mark Gieo M. Navales</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <div class="leftLinks">
+        <a href="index.html" class="site-title">Mark Gieo M. Navales</a>
+      </div>
+      <nav class="rightLinks">
+        <ul>
+          <li class="weblink"><a href="index.html">Home</a></li>
+          <li class="weblink"><a href="#about">About</a></li>
+          <li class="weblink"><a href="#skill">Experience</a></li>
+          <li class="weblink"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section" id="about">
+      <div class="hero-content">
+        <p class="intro">HI THERE I'M</p>
+        <h1 class="name">Mark Gieo M. Navales</h1>
+        <div class="disc">
+          <p>
+            A Computer Science Student at the University of the Immaculate Conception.
+            I am passionate about my studies and love to learn new things.
+          </p>
+          <h2>Interests</h2>
+          <ul class="interests-list">
+            <li>Web Development</li>
+            <li>Game Development</li>
+            <li>Software Engineering</li>
+            <li>Artificial Intelligence</li>
+            <li>Machine Learning</li>
+            <li>Cybersecurity</li>
+            <li>UI/UX</li>
+          </ul>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img class="pic" src="me.png" alt="Mark Gieo M. Navales" />
+      </div>
+    </section>
+
+    <section class="skills-section" id="skill">
+      <h1 class="section-title">Skills</h1>
+      <div class="skills-container">
+        <div class="skill-item">
+          <img src="JAVA.jpg" alt="Java" />
+          <p>JAVA</p>
+        </div>
+        <div class="skill-item">
+          <img src="PYTHON.png" alt="Python" />
+          <p>PYTHON</p>
+        </div>
+        <div class="skill-item">
+          <img src="HTML.png" alt="HTML" />
+          <p>HTML</p>
+        </div>
+        <div class="skill-item">
+          <img src="CSS.jpg" alt="CSS" />
+          <p>CSS</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-section">
+      <h1 class="section-title">Projects</h1>
+      
+      <div class="project">
+        <div class="project-content">
+          <h2>Car2Go</h2>
+          <h3>Description</h3>
+          <p>Car2Go is a web-based platform that lets customers browse, book, and pay for car rentals while allowing staff to manage vehicles, track rentals, and handle billing efficiently.</p>
+          <div class="project-tech">
+            <h3>Technology used</h3>
+            <ul>
+              <li>Java</li>
+            </ul>
+          </div>
+          <h3>Link</h3>
+          <a href="https://github.com/n4vss/car.git" class="project-link">
+            https://github.com/n4vss/car.git
+          </a>
+        </div>
+        <div class="project-image">
+          <img src="c2g.png" alt="Car2Go">
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-image">
+          <img src="gb.png" alt="Guessbreaker">
+        </div>
+        <div class="project-content">
+          <h2>Guessbreaker</h2>
+          <h3>Description</h3>
+          <p>Guessbreaker is a fun and interactive activity where one person or a team tries to guess an answer based on limited clues. The host provides hints, questions, or cues, and the players make educated guesses until they get it right or time runs out.</p>
+          <div class="project-tech">
+            <h3>Technology used</h3>
+            <ul>
+              <li>Java</li>
+            </ul>
+          </div>
+          <h3>Link</h3>
+          <a href="https://github.com/n4vss/DSTA_FinalProject.git" class="project-link">
+            https://github.com/n4vss/DSTA_FinalProject.git
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="contact-footer" id="contact">
+    <div class="footer-content">
+      <h2>Contact Me</h2>
+      <ul class="contact-list">
+        <li>
+          <a href="mailto:mnavales_240000001737@uic.edu.ph">
+            <i class="fas fa-envelope"></i> mnavales_240000001737@uic.edu.ph
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/gieo.navales" target="_blank">
+            <i class="fab fa-facebook"></i> Facebook
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/n4vss" target="_blank">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </li>
+        <li>
+          <a href="tel:+639475017518">
+            <i class="fas fa-phone"></i> 0947 501 7518
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Mark Gieo M. Navales</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+      document.querySelector('.rightLinks').classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
